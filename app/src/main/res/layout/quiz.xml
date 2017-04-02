@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99ccff">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zgadnij kto to?"
+            android:textAlignment="center"
+            android:textSize="10pt" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="3dp"
+            android:src="@mipmap/m_koz"
+            android:tag="Zdj"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:id="@+id/odpowiedz_m_koz">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Małgorzata Kożuchowska"
+                android:id="@+id/radioButtonM1" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anita Sokołowska"
+                android:id="@+id/radioButtonM2" />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="3dp"
+            android:src="@mipmap/a_sok"
+            android:tag="Zdj"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:id="@+id/odpowiedz_a_sok">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Joanna Jabłczyńska"
+                android:id="@+id/radioButtonA1" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anita Sokołowska"
+                android:id="@+id/radioButtonA2" />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="3dp"
+            android:src="@mipmap/k_pop"
+            android:tag="Zdj"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:id="@+id/odpowiedz_k_pop">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Katarzyna Popowska"
+                android:id="@+id/radioButtonK1" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ewelina Lisowska"
+                android:id="@+id/radioButtonK2" />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="3dp"
+            android:src="@mipmap/k_zie"
+            android:tag="Zdj"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:id="@+id/odpowiedz_k_zie">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Katarzyna Zielińska"
+                android:id="@+id/radioButtonZ1" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Małgorzata Rogalska"
+                android:id="@+id/radioButtonZ2" />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="3dp"
+            android:src="@mipmap/m_soc"
+            android:tag="Zdj"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:id="@+id/odpowiedz_m_soch">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Małgorzata Socha"
+                android:id="@+id/radioButtonS1" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Joanna Liszowska"
+                android:id="@+id/radioButtonS2" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/odpowiedzi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sprawdź odpowiedzi" />
+
+    </TableLayout>
+</ScrollView>
